@@ -20,10 +20,22 @@ utilizare un Backend de JavScript(NodeJS), el cual a futuro reemplazare por PHP 
 **Las Carpetas y  los Archivos a evaluar: (HTML,CSS) tendran la siguiente ubicación:**.
 
 -**Archivos HTML**
-   * .../sitio-web-ev1/src/views  => para los archivos HTML.
+   * .../proyecto/src/views  => para los archivos HTML.
         Son EJS por motor de plantillas pero se cargan finalmente como HTML en el navegador
 -**Archivos CSS**
-   * .../sitio-web-ev1/src/public/css => para los Archivos CSS.
+   * .../proyecto/src/public/css => para los Archivos CSS.
+
+
+## Introducción. 🚨 ℹ️
+
+Para los entregables a lo largo de la Asignatura trabajaré con un proyecto personal, cumpliendo con los requerimientos que las evaluaciones soliciten.
+
+Para comenzar he estado desarrollando esta aplicación a medida que aprendo desarrollo web con JavasCript tanto en el front-end como en el back-end. Hasta ahora he utilizado NodeJS y expressJS en el lado del backend y EJS como motor de plantillas para servir las distintas vistas en HTML.
+
+Iré creando mi backend en nodeJS, pero a futuro, cuando la Asignatura lo requiera rearmaré el proyecto con backend de PHP.
+
+Espero poder aprender REACTJS de aquí a final de semestre para poder conectar ese Backend en PHP con una aplicación de cliente de REACTJS, en la medida que el ramo me lo permita.
+
 
 
 
@@ -38,6 +50,7 @@ _Creare un servidor de Backend utilizando las siguientes herramientas_
 * [BootsTrap5](https://_/) - FrameWork de CSS para crear componentes de Bootstrap.
 * [FontAwsome](https://_/) - FrameWork de CSS para iconos que provee FontAwsome.
 * [AnimateCSS](https://_/) - FrameWork de CSS para dar animaciones a los componentes de los html.
+* [CleverCloud](https://_/) - Base de datos Mysql Remota para desrrollo y produccion
 
 
 
