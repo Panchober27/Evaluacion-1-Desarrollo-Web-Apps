@@ -1,0 +1,35 @@
+.img-container {
+  align-items: center;
+  width: 99vw;
+  height: auto;
+}
+
+.contenedor {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.texto-centrado-izquierda {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: cursive;
+  font-size: xx-large;
+  border: none;
+  background: rgba(0, 0, 0, 0.658);
+}
+
+.texto-centrado-derecha {
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: cursive;
+  font-size: xx-large;
+  border: none;
+  background: rgba(0, 0, 0, 0.658);
+}

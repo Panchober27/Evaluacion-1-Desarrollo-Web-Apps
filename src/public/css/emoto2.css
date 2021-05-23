@@ -1,0 +1,61 @@
+/* Utilizar media-quieries para manejar las clases y sus tamaños responsive */
+/* 
+    Mi idea es crear un hover: para cambiar las imagenes de las motos, usando trnasisiones suaves🙌
+    para esto utilizare spiners quizas o botones redondos creados por mi en este archivo css😁
+*/
+/* Para modificar los textos en los acordiones: 🖤 */
+.char {
+    color: black;
+    text-decoration: wavy;
+    font-size: large;
+  }
+  .varchar {
+    color: black;
+    text-decoration: none;
+    font-size: small;
+  }
+  
+  /* Imgaen de las motos.
+      Habra una imagen principal e imagenes secundarias.
+  */
+  /* Contenedor imagen principal */
+  .div-imagen-p {
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Contenedor de los selectores de las motos. */
+  /* .selectores-img{
+    border: solid black;
+  } */
+  /* Imagenes tipo selector del color de la moto. */
+  .img-selctor {
+    width: 12%;
+    height: 12%;
+    border-radius: 35%;
+    margin-right: 5px;
+  }
+  /* .img-selctor:hover {
+    border: solid green;
+  } */
+  
+  /* Imagen principal. */
+  .imagen-p {
+    width: 50%;
+    height: 50%;
+    transition: 1500ms;
+  }
+  /* .imagen-p:hover {
+    width: 60%;
+    height: 60%;
+    transition: 1500ms;
+  } */
+  
+  /* Cuerpo de los acordiones para la info de las motos
+    en el futuro conviene separar estos bodys de otra manera para
+    tener una manipulacion por separado.
+  */
+  .accordion-body {
+    background-image: url('images/motos/doble-20h.jpg');
+  }
+  

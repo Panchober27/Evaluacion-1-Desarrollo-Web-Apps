@@ -1,0 +1,32 @@
+img {
+  width: 98vw;
+  border-radius: 10px;
+}
+
+.contenedor {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.texto-centrado-izquierda {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  font-family: cursive;
+  font-size: xx-large;
+  border: none;
+  background: rgba(0, 0, 0, 0.568);
+}
+
+.texto-centrado-derecha {
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  font-family: cursive;
+  font-size: xx-large;
+  border: none;
+  background: rgba(0, 0, 0, 0.568);
+}

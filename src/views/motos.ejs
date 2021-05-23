@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <%- include('partials/_head.ejs') %>
+        <link rel="stylesheet" href="css/motos.css">
+        <title>Motos</title>
+</head>
+
+<body>
+    <%- include('partials/_nav.ejs') %>
+        <h1 style="text-align: center;">Vista de Motos.</h1>
+        <div class="container animate__animated animate__fadeIn">
+            <div class="row">
+                <!-- columna 1 -->
+                <div class="col-12 col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <form action="/moto-em1" method="get">
+                                <input class="img-col" name="" type="image" src="images/motos/doble-20h.jpg">
+                            </form>
+                        </div>
+                    </div>
+                    <a class="img-sub-text" href="/moto-em1">Reserva Ecomoto Doble 20ah</a>
+                </div>
+                <!-- columna 2 -->
+                <div class="col-12 col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <form action="/moto-em2" method="get">
+                                <input class="img-col" name="" type="image" src="images/motos/doble-12h.jpg">
+                            </form>
+                        </div>
+                    </div>
+                    <a class="img-sub-text" href="/moto-em2">Reserva Ecomoto Doble 12ah</a>
+                </div>
+            </div>
+        </div>
+        <!-- las rutas de las distintas motos estan en views y son emoto1 y emoto2 :) -->
+
+        <!-- Se deben crear eventsListeners que observen a las imagenes para acceder a la ruta respectiva
+        de la moto 😁 -->
+
+
+
+        <%- include('partials/_footer.ejs') %>
+
+            <script src="js/motos.js"></script>
+</body>
+
+</html>

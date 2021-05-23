@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <%- include('partials/_head.ejs') %>
+        <link rel="stylesheet" href="css/accesorios.css">
+        <title>Productos</title>
+</head>
+
+<body>
+
+    <%- include('partials/_nav.ejs') %>
+        <h2>Accesorios de E-moto</h2>
+        <p>
+            Estos accesorios son enviados desde el backend ❤
+        </p>
+        <br>
+
+
+        <div class="demo-columna">
+            <p>
+                Ahora se inertaran los items de manera estatica, igual que en repuestos.
+            </p>
+        </div>
+
+        <!-- Hasta ahora e logrado mostrar los datos de los productos desde la base de datos jijij,
+    lo siguiente seria empezar a trabajar en el diseño front-end de esta vista para ordenar los datos. -->
+
+        <!-- <table>
+            <% for(var i=0; i < rows.length; i++) { %>
+                <tr>
+                    <td>
+                        <%= rows[i].nombre %>
+                    </td>
+                    <td>
+                        <%= rows[i].precio %>
+                    </td>
+                </tr>
+                <% } %>
+        </table> -->
+
+        <div class="container">
+            <div class="row">
+                <% for(var i=0; i < rows.length; i++) { %>
+                    <div class="col-12 col-md-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <%= rows[i].nombre %>
+                                </h5>
+                                <p class="card-text">
+                                    $ <%= rows[i].precio %> <br>
+                                        Stock: <%= rows[i].stock %>
+                                </p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <% } %>
+            </div>
+        </div>
+
+        <%- include('partials/_footer.ejs') %>
+</body>
+
+</html>

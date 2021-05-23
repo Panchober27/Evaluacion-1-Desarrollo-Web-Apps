@@ -1,0 +1,59 @@
+/* Archivo de estilos para los elementos de la vista motos.ejs */
+
+.card {
+  border: none;
+}
+
+/* crear efectos de sombra para esta imagen
+estos efectos se pueden usar de manera
+dinamica con hover por ejemplo o de estatica */
+.img-col {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  border-radius: 12px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.74);
+}
+
+.img-col:hover {
+  box-shadow: 10px 10px 10px rgba(8, 248, 0, 0.63);
+}
+
+/* Para los textos abajo de las imagenes... */
+.img-sub-text {
+  text-decoration: none;
+  color: black;
+  font-size: x-large;
+}
+.img-sub-text:hover {
+  color: lawngreen;
+  text-decoration: underline;
+}
+/* Fin estilos textos bajo las fotos 🖤 */
+
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.middle-text {
+  background-color: #4caf50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+/* 
+.card-body:hover .img-col {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+} */

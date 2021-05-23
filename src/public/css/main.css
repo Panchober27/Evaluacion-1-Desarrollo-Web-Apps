@@ -1,0 +1,25 @@
+/* Archivo de estilos para componentes estaticos: footer, botones, etc... */
+
+/* Imagen del logo de e-moto en la barra de navegación */
+.nav-brand-img {
+  width: 75%;
+  height: 75%;
+}
+
+/* Estilos para botones. */
+.btn-primary {
+  font-family: fantasy;
+  color: whitesmoke;
+  border-color: rgb(51, 255, 0);
+  border-radius: 15px;
+  background-color: rgb(51, 255, 0);
+}
+
+.btn-primary:hover {
+  border-color: rgb(25, 83, 10);
+  border-radius: 15px;
+  background-color: rgb(25, 83, 10);
+}
+
+
+/* Footer */

@@ -1,0 +1,27 @@
+.img-center {
+  width: 98vw;
+  height: auto;
+}
+
+.card {
+  border: none;
+}
+
+/* Maneja de textos sobre la imagen centrada */
+.contenedor {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.texto-centrado {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: wheat;
+  font-family: cursive;
+  font-size: xx-large;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.568);
+}

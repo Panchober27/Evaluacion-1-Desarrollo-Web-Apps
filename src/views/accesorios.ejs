@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <%- include('partials/_head.ejs') %>
+        <link rel="stylesheet" href="css/accesorios.css">
+        <title>Accesorios</title>
+</head>
+
+<body>
+
+    <%- include('partials/_nav.ejs') %>
+
+        <div class="container animate__animated animate__fadeIn">
+            <div class="row">
+                <% for(let i=0; i < rows.length; i++) { %>
+                    <div class="col-12 col-md-3">
+                        <div class="card">
+                            <img src="images/accesorios/<%= rows[i].imgurl %>" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <%= rows[i].nombre %>
+                                </h5>
+                                <p class="card-text">
+                                    $ <%= rows[i].precio %> <br>
+                                        Stock: <%= rows[i].stock %>
+                                </p>
+                                <a href="#" class="btn btn-primary">Añadir al carro</a>
+                            </div>
+                        </div>
+                    </div>
+                    <% } %>
+            </div>
+        </div>
+
+
+
+
+
+
+        <%- include('partials/_footer.ejs') %>
+</body>
+
+</html>

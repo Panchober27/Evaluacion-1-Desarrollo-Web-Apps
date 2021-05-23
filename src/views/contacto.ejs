@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <%- include('partials/_head.ejs') %>
+        <link rel="stylesheet" href="css/contacto.css">
+        <title>CONTACTO</title>
+</head>
+
+<body>
+    <%- include('partials/_nav.ejs') %>
+
+        <!-- <img class="img-center" src="images/motos/motos-contacto.jpg" alt=""> -->
+
+        <div class="contenedor animate__animated animate__fadeIn">
+            <img src="images/motos/motos-contacto.jpg" class="img-center" alt="">
+            <div class="texto-centrado">
+                Nesecitas Ayuda?
+            </div>
+        </div>
+
+        <!-- Contenedor de las columnas 👍 -->
+        <div class="container-fluid">
+            <div class="row">
+                <!-- Columna 1 -->
+                <div class="col-12 col-md-6">
+                    <form>
+                        <h5 class="card-title">Formulario de contacto</h5>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Nombres</label>
+                            <input type="text" class="form-control" id="" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Apellidos</label>
+                            <input type="text" class="form-control" id="" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Direccion de Email</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">No compartiremos su correo electrónico con
+                                nadie
+                                más.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Ingrese sus comentarios o consultas</label>
+                            <textarea name="message" style="width:500px; height:150px;">
+
+                                </textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
+                    </form>
+                </div>
+                <!-- Columna 2 -->
+                <div class="col-12 col-md-6">
+                    <!-- mapaaaa -->
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3330.756530579042!2d-70.65551638534606!3d-33.40351558078741!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c5d89bef1c8f%3A0x32b03a92388dc730!2sAv.%20Einstein%201023%2C%20Recoleta%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1615217950566!5m2!1ses-419!2scl"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+
+        <%- include('partials/_footer.ejs') %>
+            <script src="js/contacto.js"></script>
+</body>
+
+</html>

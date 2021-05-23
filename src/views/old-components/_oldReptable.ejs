@@ -1,0 +1,31 @@
+<table style="display: flex; justify-content: center;">
+    <thead>
+        <tr>
+            <th>
+                Nombre
+            </th>
+            <th>
+                Precio
+            </th>
+            <th>
+                Stock
+            </th>
+        </tr>
+    </thead>
+
+    <% for(var i=0; i < rows.length; i++) { %>
+        <tr>
+            <td>
+                <%= rows[i].nombre %>
+            </td>
+            <td>
+                <%= rows[i].precio %>
+            </td>
+            <td>
+                <%= rows[i].stock %>
+            </td>
+        </tr>
+        <% } %>
+</table>
+<br>
+<br>
