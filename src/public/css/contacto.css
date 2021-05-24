@@ -15,13 +15,14 @@
 }
 
 .texto-centrado {
+  font-family: "Libre Baskerville", serif;
   position: absolute;
-  top: 50%;
+  top: 5%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: wheat;
+  color: rgb(43, 42, 42);
   font-family: cursive;
-  font-size: xx-large;
+  font-size: 60px;
   border-radius: 10px;
-  background: rgba(0, 0, 0, 0.568);
 }
+/* Usar MediaQueries para cambiar el tamaño del texto */

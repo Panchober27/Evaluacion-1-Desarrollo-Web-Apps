@@ -28,7 +28,7 @@ utilizare un Backend de JavScript(NodeJS), el cual a futuro reemplazare por PHP 
 
 ## Introducción. 🚨 ℹ️
 
-Para los entregables a lo largo de la Asignatura trabajaré con un proyecto personal, cumpliendo con los requerimientos que las evaluaciones soliciten.
+Para los entregables a lo largo de la Asignatura trabajaré con un proyecto personal, el cual se trata de una aplicacion web de tipo e-commerce para la empresa E-Moto, este es un proyecto que gestione de manera autonoma y el cual estoy desarrollando actualmente con NodeJS y espero a futuro poder incorporar ReactJS y asi dividir el proyecto en Backend y Frontend. Siempre cuidando cumplir con los requerimientos que las evaluaciones soliciten.
 
 Para comenzar he estado desarrollando esta aplicación a medida que aprendo desarrollo web con JavasCript tanto en el front-end como en el back-end. Hasta ahora he utilizado NodeJS y expressJS en el lado del backend y EJS como motor de plantillas para servir las distintas vistas en HTML.
 
@@ -66,7 +66,7 @@ _Creare un servidor de Backend utilizando las siguientes herramientas_
 - **/public**:
     * Carpeta que contendra los CSS y las Imagenes necesarias, más algun JavaScript de chorezas
 - **/views**:
-    * Carpeta que contendra los html requeridos para la evaluación
+    * Carpeta que contendra los html requeridos para las evaluaciónes
 
 
 

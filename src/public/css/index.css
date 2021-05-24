@@ -1,3 +1,33 @@
 /* Archivo para estilos de componentes propios de la vista index
     Componentes: Carousel
 */
+
+.img-2 {
+  opacity: 0.5;
+  transition: 1000ms;
+}
+
+.img-2:hover {
+  opacity: 1;
+  transition: 1000ms;
+}
+
+.contenedor {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+/* Cambiar color de la fuente. */
+.texto-centrado {
+  font-family: "Libre Baskerville", serif;
+  text-align: left;
+  font-size: x-large;
+  color: rgb(37, 37, 37);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Usar Media quieries para cambiar el tamaño de la imagen en dispositvos moviles. */
