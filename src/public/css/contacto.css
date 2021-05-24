@@ -1,6 +1,7 @@
 .img-center {
   width: 98vw;
   height: auto;
+  opacity: 0.6;
 }
 
 .card {
@@ -20,7 +21,7 @@
   top: 5%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: rgb(43, 42, 42);
+  color: rgb(0, 0, 2);
   font-family: cursive;
   font-size: 60px;
   border-radius: 10px;
